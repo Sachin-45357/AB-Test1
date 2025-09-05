@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A/B Test Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Task Section -->
+  <section class="hero" id="task-section">
+    <div class="card animate-float">
+      <h1>🚀 Be Part of Our Journey!</h1>
+      <p>Subscribe now and never miss exciting updates 🎉</p>
+      <form id="task-form">
+        <input type="text" id="name" placeholder="✨ Enter your name" required>
+        <button type="submit" id="cta-btn">Join Now</button>
+      </form>
+      <small>✔ 100% free & no spam ever!</small>
+    </div>
+  </section>
+
+  <!-- Thank You Section -->
+  <section class="thankyou hidden" id="thankyou-section">
+    <div class="thankyou-card animate-fadein">
+      <h1>🎉 Thank You!</h1>
+      <p id="thankyou-msg"></p>
+      <p>We’ve recorded your response. You’re all set!</p>
+    </div>
+  </section>
+
+  <canvas id="confetti"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
